@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.header-bg{
+    background-color: #000000;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.header-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.header-menu a{
+    color: #ffffff;
+    display: inline-block;
+    padding: 16px 0px;
+    text-decoration: none;
+}
